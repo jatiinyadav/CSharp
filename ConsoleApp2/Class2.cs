@@ -18,12 +18,5 @@ namespace ConsoleApp2
 			Class2 cls2 = new Class2();
 			Console.WriteLine(cls2.myName);
 		}
-
-		// Single Level
-		// MultiLevel
-		// Multiple
-		// Heirarichal
-		// Hybrid	
-
 	}
 }

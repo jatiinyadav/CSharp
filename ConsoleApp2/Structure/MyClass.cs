@@ -21,7 +21,21 @@ namespace ConsoleApp2.Structure
 
 		// A structure doesn't support inheritance.
 		// A structure can also implement a interface.
+
+		// Initialization of variables is not possible during declaration in struct.
+		// We can assign values of variables using the instance of the class.
+
+		// We can also assign the values of the fields with the help of constructor.
+		// We can only create paramaterized constructor in the Struct, we cannot create Default 
+		// Constructor like we are able to do in the Classes.
+		
 		static int x = 10;
+		public int y;
+
+		public MyClass(int variable)
+		{
+			this.y = variable;
+		}
 
 		static MyClass()
 		{
@@ -36,6 +50,8 @@ namespace ConsoleApp2.Structure
 		{
 			MyClass cls = new MyClass();
 			MyClass cls2 = new MyClass();
+
+
 			Console.WriteLine(x);
 		}
 	}

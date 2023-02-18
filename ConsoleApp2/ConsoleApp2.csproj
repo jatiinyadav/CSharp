@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ConsoleApp2.Indexers.MainI</StartupObject>
+    <StartupObject>ConsoleApp2.LINQ.Linq1</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

@@ -5,6 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Inheritances.Cls2</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

@@ -10,26 +10,37 @@ namespace ConsoleApp2.Collections
 	internal class ArrList
 	{
 
+		public static void displayData(ArrayList arr)
+		{
+			Console.WriteLine();
+
+			foreach (var item in arr)
+			{
+				Console.Write(item + " ");
+			}
+			Console.WriteLine();
+
+		}
+
 		static void Main(string[] args)
 		{
-			List<int> arr = new List<int>();
-			arr.Add(2);
+			ArrayList arr = new ArrayList();
+			arr.Add(100);
+			arr.Add(200);
+			arr.Add(300);
+			arr.Add(400);
+			arr.Add(500);
 
-			Stack<string> str = new Stack<string>();
-			str.Push("Hello");
+			displayData(arr);
 
-			Queue<double> qu = new Queue<double>();
-			qu.Enqueue(23.143);
+			arr.Reverse();
 
-			Hashtable ht = new Hashtable();
-			ht.Add(1, "Hello");
-			ht.Add(3, "C# Learning");
-			ht.Add(2, "World");
+			displayData(arr);
 
-			foreach (var item in ht.Keys)
-			{
-				Console.WriteLine(ht[item]);
-			}
+			arr.RemoveAt(3);
+
+			displayData(arr);
 		}
+
 	}
 }

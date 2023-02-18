@@ -54,14 +54,12 @@ namespace ConsoleApp2.Interfaces
 
 		static void Main(string[] args)
 		{
-			ImplementationClass cls1 = new ImplementationClass();
+			ImplementationClass cls1 = new ImplementationClass(); // Instance 
 			cls1.Add(20, 20);
 
-			Interface2 i1 = cls1;
+			Interface2 i1 = cls1; // Reference Variable
 			i1.Show();
 
-			ArrayList arr1 = new ArrayList();
-			arr1.Add(10);	
 		}
 	}
 
